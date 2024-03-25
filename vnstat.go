@@ -54,7 +54,7 @@ func check() {
 		recent := dataLines[len(dataLines)-1]
 		vvs := strings.Split(recent, "|")
 		for i, v := range vvs {
-			if i == 2 {
+			if i == 1 {
 				v = strings.Trim(v, " ")
 				total := strings.Split(v, " ")
 				if len(total) == 2 {
